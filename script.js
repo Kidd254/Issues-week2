@@ -36,7 +36,7 @@ closingBtn.addEventListener('click', ()=>{
   menuContainer[0].style.display='none';
 });
 
-const popDisplay= document.getElementById('pop');
+const popDisplays= document.getElementById('pop');
 
 popDisplay.addEventListener('click', ()=>{
   popUp(sectionsCard[0]);
@@ -217,7 +217,7 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-const dataForm = {
+const dataform = {
   name: '',
   email: '',
   message: '',
